@@ -16,8 +16,9 @@ xkb_symbols "basic" {
     key <AE08> { [ braceright, 8 ] };
     key <AE09> { [ bracketright, 9, dead_grave ] };
     key <AE10> { [ asterisk, 0 ] };
-    key <AE11> { [ exclam, percent ] };
-    key <AE12> { [ bar, grave, dead_tilde ] };
+    key <AE11> { [ minus, underscore ] };
+    key <AE12> { [ exclam, percent ] };
+    
 
     key <AD01> { [ q, Q ] };
     key <AD02> { [ w, W ] };
@@ -29,8 +30,8 @@ xkb_symbols "basic" {
     key <AD08> { [ i, I, igrave, Igrave ] };
     key <AD09> { [ o, O, ograve, Ograve ] };
     key <AD10> { [ p, P ] };
-    key <AD11> { [ minus, underscore ] };
-    key <AD12> { [ at, asciicircum ] };
+    key <AD11> { [ at, asciicircum ] };
+    key <AD12> { [ backslash, numbersign ] };
 
     key <AC01> { [ a, A, agrave, Agrave ] };
     key <AC02> { [ s, S ] };
@@ -42,7 +43,7 @@ xkb_symbols "basic" {
     key <AC08> { [ k, K ] };
     key <AC09> { [ l, L ] };
     key <AC10> { [ semicolon, colon, dead_acute, dead_diaeresis ] };
-    key <AC11> { [ apostrophe, quotedbl, grave, dead_doubleacute ] };
+    key <AC11> { [ apostrophe, quotedbl] };
 
     key <AB01> { [ z, Z ] };
     key <AB02> { [ x, X ] };
@@ -55,7 +56,7 @@ xkb_symbols "basic" {
     key <AB09> { [ period, greater ] };
     key <AB10> { [ slash, question ] };
 
-    key <BKSL> { [ backslash, bar, numbersign ] };
+    key <BKSL> { [ bar, grave, dead_tilde ] };
 
     include "level3(ralt_switch)"
 
