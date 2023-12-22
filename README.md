@@ -51,5 +51,5 @@ nixos-rebuild switch
 If this wasn't enough you probably need to restart X
 
 ## For the better us layout
-Do the same thing but instead of ```real-prog-qwerty``` just put ```us-but-better``` and you will also become the new\
-italian president
+Do the same thing but instead of ```real-prog-qwerty``` just put ```us-but-better``` 
+and you will also become the new italian president
